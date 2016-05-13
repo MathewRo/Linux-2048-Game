@@ -124,7 +124,7 @@ void MyGame :: addflicker(int flick){
 	usleep(flick);
 } 
 
-void MyGameDB :: chmode(){ // Game startup{
+void MyGameDB :: chmode(){ // Game startup 
 	system("clear");
 	string content;
 	ifstream startup("2048.txt");
@@ -138,7 +138,7 @@ void MyGameDB :: chmode(){ // Game startup{
 	this->addflicker(1000000);
 }
 
-void MyGame :: endascii(){ // Random ascii arts
+void MyGame :: endascii(){ // GAMEOVER ascii art
 	system("clear");
         string content;
         ifstream endmode("2047.txt");
