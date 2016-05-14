@@ -1,6 +1,8 @@
 2048(C++)---Linux
 Linux terminal game - 2048
 
+![2048](https://cloud.githubusercontent.com/assets/19341165/15267299/78c5ca4c-19db-11e6-86df-751eb3559e14.png)
+
 2048(C++) - Linux console implementation using ascii colouring schemes. 
 Please Do report Bugs if you find any. Feel free to distribute!
 
