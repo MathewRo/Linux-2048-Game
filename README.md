@@ -5,7 +5,7 @@
   
   
 ###2048(C++)           
-Linux console implementation using ascii colouring schemes.     
+Linux console implementation of the game 2048 using ascii colouring schemes.     
 Please Do report Bugs if you find any. Feel free to distribute!  
   
 ###Setup    
@@ -18,8 +18,7 @@ Please Do report Bugs if you find any. Feel free to distribute!
 **7. ./mygame**    
   
 ###Notes    
-Make sure the files '2048.txt' and '2047.txt' are present in   
-the same folder as that of the executable.  
+Make sure the files '2048.txt' and '2047.txt' are present in the same folder as that of the executable.  
 
 ###Controls      
 Arrow keys for corresponding grid shifts.   
@@ -30,5 +29,4 @@ Use your arrow keys to move the tiles.
 When two tiles with the same number touch, they merge into one!  
 
 ###Credits       
-2048 is a single-player sliding block puzzle game by 19-year-old   
-Italian web developer Gabriele Cirulli.  
+2048 is a single-player sliding block puzzle game by 19-year-old Italian web developer Gabriele Cirulli.  
