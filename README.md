@@ -1,4 +1,4 @@
-#2048(C++)---Linux    
+#2048(C++) - Linux    
     
     
 ![2048](https://cloud.githubusercontent.com/assets/19341165/15267299/78c5ca4c-19db-11e6-86df-751eb3559e14.png)
