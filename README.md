@@ -11,7 +11,7 @@ Please Do report Bugs if you find any. Feel free to distribute!
 ###Setup    
 ######1. Open Linux terminal (CLI)    
 ######2. mkdir ~/games    
-######3. cd games    
+######3. cd ~/games    
 ######4. git clone https://github.com/MathewRo/Linux-2048-Game.git      
 ######5. cd Linux-2048-Game    
 ######6. g++ 2048.cpp -o 2048    
