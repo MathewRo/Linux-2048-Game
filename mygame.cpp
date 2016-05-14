@@ -112,12 +112,12 @@ void MyGame :: initializegrid(){ // initial grid setup
 	int i, j, m, n;
 	i = indexrandomizer(4);
 	j = indexrandomizer(4);
-	m_ar[i][j] = 1024;
+	m_ar[i][j] = 2;
 	do{
 	m = indexrandomizer(4);
 	n = indexrandomizer(4);
 	}while(m == i && n == j);
-	m_ar[m][n] = 1024;
+	m_ar[m][n] = 2;
 }
 
 void MyGame :: addflicker(int flick){
