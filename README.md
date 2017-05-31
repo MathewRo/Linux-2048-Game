@@ -14,7 +14,7 @@ Please Do report Bugs if you find any. Feel free to distribute!
 ###### 3. cd ~/games    
 ###### 4. git clone https://github.com/MathewRo/Linux-2048-Game.git      
 ###### 5. cd Linux-2048-Game    
-###### 6. mmake all    
+###### 6. make all    
 ###### 7. ./2048
 ###### 8. To clean the directory, do make clean    
   
