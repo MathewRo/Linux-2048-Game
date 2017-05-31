@@ -150,7 +150,7 @@ void MyGame :: endascii(){ // GAMEOVER ascii art
 }
 
 void MyGame :: backup(){
-	int i, j, check;
+	int i, j;
 	for(i = 0; i < 4; i++){
 		for(j = 0; j < 4; j++){
 			b_ar[i][j] = m_ar[i][j];
@@ -307,7 +307,7 @@ void MyGame :: ushift(){ // Up shift Algorithm
 	score = score + scr;
 }					
 void MyGame :: dshift(){ // Down shift Algorithm
-	int i,j,k,scr=0,check; 
+	int i,j,k,scr=0; 
 	for(i = 0; i < 4; i++){  // Could have done this in much better ways - just a random approach 
 		for(k = 0; k < 3; k++){
 			for(j = 3; j >= 0; j--){
