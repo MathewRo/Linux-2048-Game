@@ -14,8 +14,9 @@ Please Do report Bugs if you find any. Feel free to distribute!
 ###### 3. cd ~/games    
 ###### 4. git clone https://github.com/MathewRo/Linux-2048-Game.git      
 ###### 5. cd Linux-2048-Game    
-###### 6. g++ 2048.cpp -o 2048    
-###### 7. ./2048    
+###### 6. mmake all    
+###### 7. ./2048
+###### 8. To clean the directory, do make clean    
   
 ### Notes    
 Make sure the files '2048.txt' and '2047.txt' are present in the same folder as that of the executable.  
