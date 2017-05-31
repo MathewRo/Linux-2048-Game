@@ -1,13 +1,13 @@
 /*******************************************************************
-2048 is a single-player sliding block puzzle game by 19-year-old Italian
-web developer Gabriele Cirulli.
+  2048 is a single-player sliding block puzzle game by 19-year-old Italian
+  web developer Gabriele Cirulli.
 
-HOW TO PLAY: Use your arrow keys to move the tiles. 
-When two tiles with the same number touch, they merge into one!
+  HOW TO PLAY: Use your arrow keys to move the tiles. 
+  When two tiles with the same number touch, they merge into one!
 
-2048 - Linux console implementation using ascii colouring schemes
-Feel free to distribute!
-*******************************************************************/
+  2048 - Linux console implementation using ascii colouring schemes
+  Feel free to distribute!
+ *******************************************************************/
 #include <iostream>
 #include <ctime>
 #include <unistd.h>
@@ -114,8 +114,8 @@ void MyGame :: initializegrid(){ // initial grid setup
 	j = indexrandomizer(4);
 	m_ar[i][j] = 2;
 	do{
-	m = indexrandomizer(4);
-	n = indexrandomizer(4);
+		m = indexrandomizer(4);
+		n = indexrandomizer(4);
 	}while(m == i && n == j);
 	m_ar[m][n] = 2;
 }
@@ -140,11 +140,11 @@ void MyGameDB :: chmode(){ // Game startup
 
 void MyGame :: endascii(){ // GAMEOVER ascii art
 	system("clear");
-        string content;
-        ifstream endmode("2047.txt");
-        if (endmode.fail()) return;
-        while(getline(endmode, content))
-                cout << content << endl;
+	string content;
+	ifstream endmode("2047.txt");
+	if (endmode.fail()) return;
+	while(getline(endmode, content))
+		cout << content << endl;
 	this->addflicker(4000000);
 	this->clearFunc();
 }
